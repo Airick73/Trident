@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 {% extends "app/base.html" %}
 {% block content %}
-{% load static %}
-  <div class="text-center">
-    <h1>Trident Jiu-Jitsu</h1>
-  </div>
+
 
   <div class="video-container">
     <video autoplay loop muted>
       <source src="../../static/video/jiujitsu.mp4" type="video/mp4">
     </video>
-    <div class="video-container">
+    <div class="video-content">
       Trident Jiu-Jitsu
+    </div>
+  </div>
+
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <img src="../../static/video/adultBJJ.jpg" alt="404">
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card">
+        <div class="card-body">
+          <img src="../../static/video/kidBJJ.jpg" alt="404">
+        </div>
+      </div>
     </div>
   </div>
 
