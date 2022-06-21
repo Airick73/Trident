@@ -1,6 +1,11 @@
 html, body{
   margin: 0;
+  color: purple;
 }
+
+/* body{
+  background-color: white;
+} */
 
 .video-container{
   position: relative;
@@ -32,3 +37,41 @@ html, body{
   font-size: 70px;
   margin-top: 100px;
 }
+
+.image_content{
+  /* position: relative; */
+  width: 50%;
+  height: 50%;
+  min-width: 100%;
+  min-height: 100%;
+
+}
+
+#aboutcontent{
+  background-image: url("../../static/images/group_pic.jpg");
+  /* border-color: black; */
+  /* border-style: dashed; */
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  padding-bottom: auto;
+  padding-top: auto;
+
+
+}
+
+.contact-footer{
+  background-color: black;
+   /* width:100%; */
+   /* padding: 1%;
+   left: 0;
+   bottom: 0; */
+}
+
+
+
+/* .content-me p{
+  text-align: center;
+  color: white;
+} */
